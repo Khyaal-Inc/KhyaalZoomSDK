@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.source = { :http => 'https://github.com/Khyaal-Inc/KhyaalZoomSDK/releases/download/zoom-ios-sdk/zoom-ios-5.17.10.13930.zip' }
   s.requires_arc = true
 
-  s.vendored_frameworks =  "**/MobileRTC.xcframework"
-  s.resource = '**/MobileRTCResources.bundle'
+  s.vendored_frameworks =  "MobileRTC.xcframework"
+  s.resource = 'MobileRTCResources.bundle'
 
   s.libraries = "sqlite3", "z.1.2.5", "c++"
   s.weak_framework = 'VideoToolbox', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'ReplayKit'
