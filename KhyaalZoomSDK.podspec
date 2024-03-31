@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |s|
   s.name         = "KhyaalZoomSDK"
   s.version      = "5.17.10.13930"
@@ -13,7 +14,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.vendored_frameworks =  "**/MobileRTC.xcframework"
-  s.resource = '**/MobileRTCResources.bundle'
+  s.resource = "**/MobileRTCResources.bundle"
 
   s.libraries = "sqlite3", "z.1.2.5", "c++"
   s.weak_framework = 'VideoToolbox', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'ReplayKit'
@@ -26,7 +27,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'MIT', :text => <<-LICENSE
  MIT License
 
- Copyright (c) 2021 zvs001
+ Copyright (c) 2024
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
