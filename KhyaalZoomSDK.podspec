@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "author" => "reefaq@khyaal.com" }
   s.platform     = :ios, "15.0"
 
-  s.source = { :http => 'https://github.com/Khyaal-Inc/KhyaalZoomSDK/releases/download/zoom-ios-sdk/zoom-ios-5.17.10.13930.zip' }
+  s.source = { :http => 'https://github.com/Khyaal-Inc/KhyaalZoomSDK/releases/download/zoom-ios-sdk/zoom-sdk-ios-5.17.11.14222.zip' }
   s.requires_arc = true
 
   s.vendored_frameworks =  "**/lib/MobileRTC.xcframework"
